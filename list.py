@@ -1,0 +1,21 @@
+truck = ['Tacoma', 'Maverick', 'Santa Cruz','Ridgline']
+print(truck)
+truck[3]='Montana'
+print(truck)
+truck.append('Frontier')
+print(truck)  
+truck.insert(2,'Canyon')
+print(truck)
+del truck[2]
+print(truck)
+poped_truck=truck.pop(2)
+print(truck)
+print(poped_truck)
+truck.remove('Maverick')
+print(truck)
+truck.sort()
+print(truck)
+truck.sort(reverse=True)
+print(truck)
+print(sorted(truck))
+print(truck)
