@@ -23,4 +23,4 @@ print(f"Congratulation! {guest_list} get to stay!")
 del guest_list[0]
 del guest_list[0]
 print(f"{guest_list}, party canceled, nobody invited!")
-print(len(guest_list))
+print(len(guest_list)) 
